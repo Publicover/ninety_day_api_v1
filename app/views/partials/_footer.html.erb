@@ -1,0 +1,21 @@
+<footer class='page-footer white' id='footer'>
+  <div class='container'>
+    <div class='row center'>
+      <div class='col f-block'>
+        <h4>CONTACT</h4>
+        Want to get in touch? <br />
+        I'm at <%= "#{ENV['GMAILU']}" %>.
+      </div>
+      <div class='col f-block'>
+        <h4>MY LINKS</h4>
+        <%= link_to 'github', "#{ENV['MY_GITHUB']}" %><br />
+        <%= link_to 'LinkedIn', "#{ENV['MY_LI']}" %> <br />
+      </div>
+      <div class='col f-block'>
+        <h4>ABOUT</h4>
+        I built this site in Ruby on Rails <br />
+        with Bootstrap for styling.
+      </div>
+    </div>
+  </div>
+</footer>
