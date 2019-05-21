@@ -18,6 +18,9 @@
       <li class="nav-item <%= active_if(root_path) %>">
         <%= link_to "Dashboard", root_path, class: "nav-link" %>
       </li>
+      <li class="nav-item <%= active_if(panels_index_path) %>">
+        <%= link_to "Admin Panel", panels_index_path, class: "nav-link" %>
+      </li>
       <li class="nav-item <%= 'active' if current_page?(destroy_user_session_path) %>">
         <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "nav-link" %>
       </li>
