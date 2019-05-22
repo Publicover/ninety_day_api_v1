@@ -5,8 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Season.create(order: 1)
-Season.create(order: 2)
+Season.create(order: 1, title: '90 Day Fiance, Season 1')
+Season.create(order: 2, title: '90 Day Fiance, Season 2')
 
 Episode.create(number: 1, title: 'I Got My Visa', season_id: 1,
   desc: 'Four women come to the US to live with their American fiances using
