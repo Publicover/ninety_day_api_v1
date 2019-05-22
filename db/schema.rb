@@ -10,7 +10,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_20_212814) do
+ActiveRecord::Schema.define(version: 2019_05_22_211526) do
+
+  create_table "couples", force: :cascade do |t|
+    t.string "m_name"
+    t.integer "m_age"
+    t.string "m_city"
+    t.string "w_name"
+    t.integer "w_age"
+    t.string "w_city"
+    t.integer "season_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["season_id"], name: "index_couples_on_season_id"
+  end
+
+  create_table "episodes", force: :cascade do |t|
+    t.integer "number"
+    t.integer "season_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "title"
+    t.text "desc"
+    t.index ["season_id"], name: "index_episodes_on_season_id"
+  end
+
+  create_table "seasons", force: :cascade do |t|
+    t.integer "order"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "year"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false

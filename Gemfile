@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.5'
-gem 'pg'
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -49,6 +48,9 @@ gem 'factory_bot_rails', '~> 4.0'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 gem 'devise'
+
+# gem 'fast_jsonapi'
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
