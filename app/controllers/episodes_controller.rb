@@ -7,22 +7,23 @@ class EpisodesController < ApplicationController
   end
 
   def show
+    render json: @episode
   end
 
-  def new
-  end
-
-  def edit
-  end
-
-  def create
-  end
-
-  def update
-  end
-
-  def destroy
-  end
+  # def new
+  # end
+  #
+  # def edit
+  # end
+  #
+  # def create
+  # end
+  #
+  # def update
+  # end
+  #
+  # def destroy
+  # end
 
   private
 
