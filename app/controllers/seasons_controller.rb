@@ -3,30 +3,27 @@ class SeasonsController < ApplicationController
 
   def index
     @seasons = Season.all
-    # json_response(@seasons)
     render json: @seasons
-    # except: [:created_at, :updated_at]
-    # include: :americans,
-    # include: :americans
   end
 
   def show
+    render json: @season
   end
 
-  def new
-  end
-
-  def edit
-  end
-
-  def create
-  end
-
-  def update
-  end
-
-  def destroy
-  end
+  # def new
+  # end
+  #
+  # def edit
+  # end
+  #
+  # def create
+  # end
+  #
+  # def update
+  # end
+  #
+  # def destroy
+  # end
 
   private
 
