@@ -6,7 +6,6 @@ RSpec.describe 'Seasons API', type: :request do
 
   describe 'GET /seasons' do
     before { get '/seasons' }
-    # before { get '/words', params: {}, headers: headers }
 
     it 'returns seasons' do
       expect(json).not_to be_empty
