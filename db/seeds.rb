@@ -24,7 +24,6 @@ Season.create(order: 10, title: '90 Day Fiance: Before the 90 Days, Season 2', y
 Season.create(order: 11, title: '90 Day Fiance, Season 6', year: 2018)
 Season.create(order: 12, title: '90 Day Fiance: Happily Ever After?, Season 4', year: 2019)
 
-
 Episode.create(number: 1, title: 'I Got My Visa', season_id: 1,
   desc: 'Four women come to the US to live with their American fiances using
   a unique 90 day K-1 visa. The couples have 90 days to wed before the visas
