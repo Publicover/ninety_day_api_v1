@@ -182,18 +182,11 @@ Episode.create(number: 13, title: 'The Couples Tell All', season_id: 11, desc: "
 
 # Episode.create(number: , title: , season_id: 12, desc: )
 
-Couple.create(m_name: 'Russ', m_age: 27, m_city: 'Owasso, OK',
-  w_name: 'Paola', w_age: 26, w_city: 'Bucaramanga, Colombia',
-  season_id: 1)
-Couple.create(m_name: 'Alan', m_age: 29, m_city: 'Los Angeles, CA',
-  w_name: 'Kirlyam', w_age: 21, w_city: 'Goiania, Brazil',
-  season_id: 1)
-Couple.create(m_name: 'Louis', m_age: 33, m_city: 'Indianapolis, IN',
-  w_name: 'Aya', w_age: 30, w_city: 'Ormoc, Phillipines',
-  season_id: 1)
-Couple.create(m_name: 'Mike', m_age: 31, m_city: 'Cleveland, OH',
-  w_name: 'Aya', w_age: 21, w_city: 'Volgogra, Russia',
-  season_id: 1)
+Couple.create(m_name: 'Russ', m_age: 27, m_city: 'Owasso, OK', w_name: 'Paola', w_age: 26, w_city: 'Bucaramanga, Colombia', season_id: 1)
+Couple.create(m_name: 'Alan', m_age: 29, m_city: 'Los Angeles, CA', w_name: 'Kirlyam', w_age: 21, w_city: 'Goiania, Brazil', season_id: 1)
+Couple.create(m_name: 'Louis', m_age: 33, m_city: 'Indianapolis, IN', w_name: 'Aya', w_age: 30, w_city: 'Ormoc, Phillipines', season_id: 1)
+Couple.create(m_name: 'Mike', m_age: 31, m_city: 'Cleveland, OH', w_name: 'Aya', w_age: 21, w_city: 'Volgogra, Russia', season_id: 1)
+
 Couple.create(m_name: 'Yamir', m_age: 28, m_city: 'Managua, Nicaragua', w_name: 'Chelsea', w_age: 25, w_city: 'Galesburg, IL', season_id: 2)
 Couple.create(m_name: 'Mohamed', m_age: 26, m_city: 'Tunis, Tunisia', w_name: 'Danielle', w_age: 41, w_city: 'Norwalk, OH', season_id: 2)
 Couple.create(m_name: 'Justin', m_age: 34, m_city: 'San Jose, CA', w_name: 'Evelin', w_age: 29, w_city: 'Cali, Colombia', season_id: 2)
@@ -227,3 +220,20 @@ Couple.create(m_name: 'Jonathon', m_age: 32, m_city: 'Lumberton, NC', w_name: 'F
 Couple.create(m_name: 'Asuelu', m_age: 23, m_city: 'Somoa', w_name: 'Kalani', w_age: 30, w_city: 'Orange County, CA', season_id: 11)
 Couple.create(m_name: 'Eric', m_age: 40, m_city: 'Baraboo, WI', w_name: 'Leida', w_age: 29, w_city: 'Jakarta, Indonesia', season_id: 11)
 Couple.create(m_name: 'Steven', m_age: 20, m_city: 'Bowie, MD', w_name: 'Olga', w_age: 20, w_city: 'Voronezh, Russia', season_id: 11)
+
+# CouplesSeasons.create(couple_id: 1, season_id: 1)
+# CouplesSeasons.create(couple_id: 1, season_id: 5)
+# CouplesSeasons.create(couple_id: 1, season_id: 7)
+# CouplesSeasons.create(couple_id: 1, season_id: 9)
+# CouplesSeasons.create(couple_id: 1, season_id: 12)
+# CouplesSeasons.create(couple_id: 2, season_id: 1)
+# CouplesSeasons.create(couple_id: 3, season_id: 1)
+# CouplesSeasons.create(couple_id: 4, season_id: 1)
+# CouplesSeasons.create(couple_id: 5, season_id: 2)
+# CouplesSeasons.create(couple_id: 5, season_id: 5)
+# CouplesSeasons.create(couple_id: , season_id: )
+# CouplesSeasons.create(couple_id: , season_id: )
+# CouplesSeasons.create(couple_id: , season_id: )
+# CouplesSeasons.create(couple_id: , season_id: )
+# CouplesSeasons.create(couple_id: , season_id: )
+# CouplesSeasons.create(couple_id: , season_id: )
