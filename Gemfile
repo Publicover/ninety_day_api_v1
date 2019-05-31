@@ -48,6 +48,7 @@ gem 'factory_bot_rails', '~> 4.0'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 gem 'devise'
+# gem 'swagger'
 
 # gem 'fast_jsonapi'
 gem 'active_model_serializers', '~> 0.10.0'
