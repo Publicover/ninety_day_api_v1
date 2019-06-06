@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  
+  get 'calls/seasons'
+  get 'calls/couples'
+  get 'calls/episodes'
   devise_for :users
 
   resources :seasons

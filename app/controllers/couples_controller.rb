@@ -33,6 +33,6 @@ class CouplesController < ApplicationController
 
     def couple_params
       params.require(:couple).permit(:m_name, :m_city, :m_age, :w_name, :w_city,
-        :w_age, :season_ids: [])
+        :w_age, season_ids: [])
     end
 end
