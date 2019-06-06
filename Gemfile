@@ -49,6 +49,7 @@ gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 gem 'devise'
 # gem 'swagger'
+gem 'scrollbar-rails'
 
 # gem 'fast_jsonapi'
 gem 'active_model_serializers', '~> 0.10.0'
