@@ -15,4 +15,19 @@
 //= require bootstrap-sprockets
 //= require rails-ujs
 //= require turbolinks
+//= require jquery.mCustomScrollbar
 //= require_tree .
+
+
+
+$(document).on('turbolinks:load', function() {
+
+  $("#sidebar").mCustomScrollbar({
+    theme: "minimal"
+  });
+
+  $('#sidebarCollapse').on('click', function () {
+    $('#sidebar').toggleClass('active');
+    $('.collapse.in').toggleClass('in');
+  });
+})

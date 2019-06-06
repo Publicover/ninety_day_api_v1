@@ -19,11 +19,18 @@
     <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
-    <div class='wrapper'>
-      <%= yield %>
+    <div class='container'>
+      <div class='wrapper'>
+        <%= render 'partials/side_nav' %>
+        <div id='content'>
+          <%= yield %>
+        </div>
+      </div>
+
+
     </div>
 
     <%= render 'partials/footer' %>
-    
+
   </body>
 </html>
